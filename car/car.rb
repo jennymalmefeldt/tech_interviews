@@ -1,21 +1,14 @@
 class Car
 
-  attr_accessor :car_colors
+  attr_accessor :color
 
-  def initialize(attrs = {})
-    @car_color = set_car_color
+  def initialize(color)
+  @color = color
   end
 
-  car = Car.new('red')
+end
+
+  car1 = Car.new("red")
 
 
-
-  def set_car_color
-    
-
-  end
-
-
-  COLOR_TYPE = "pink"
-  COLOR_TYPE = "Yellow"
-  COLOR_TYPE = "Red"
+car1
